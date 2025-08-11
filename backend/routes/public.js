@@ -99,6 +99,31 @@ router.get('/blogs/:id', async (req, res) => {
             lastName: true
           }
         },
+        comments: {
+          include: {
+            user: {
+              select: {
+                id: true,
+                firstName: true,
+                lastName: true
+              }
+            }
+          },
+          orderBy: {
+            createdAt: 'desc'
+          }
+        },
+        likes: {
+          include: {
+            user: {
+              select: {
+                id: true,
+                firstName: true,
+                lastName: true
+              }
+            }
+          }
+        },
         _count: {
           select: {
             likes: true,

@@ -56,6 +56,7 @@ const PublicBlogDetail = () => {
         queryClient.invalidateQueries(['public-blog', id])
         toast.success('Comment added successfully!')
         setShowCommentForm(false)
+        reset()
       },
       onError: (error) => {
         toast.error(error.response?.data?.error || 'Failed to add comment')
