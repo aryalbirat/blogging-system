@@ -1,0 +1,72 @@
+# Node modules
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Dependency directories
+jspm_packages/
+
+# dotenv environment variables
+.env
+.env.*
+
+# Build output
+/dist
+/build
+/.next
+.next/
+out/
+coverage/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# VS Code settings
+.vscode/
+
+# OS generated files
+*.swp
+*.swo
+
+# Prisma
+prisma/dev.db
+prisma/dev.db-journal
+
+# Tailwind JIT cache
+.tailwind-cache/
+
+# Misc
+*.tgz
+*.gz
+*.zip
+
+# Ignore local env example
+backend/env.example
+
+# Ignore frontend build
+frontend/dist/
+
+# Ignore backend build
+backend/dist/
+
+# Ignore coverage
+coverage/
+
+# Ignore IDE settings
+.idea/
+*.iml
+
+# Ignore test output
+*.test.js.snap
+
+# Ignore lock files (optional, if you use only one package manager)
+# yarn.lock
+# package-lock.json
+# pnpm-lock.yaml
