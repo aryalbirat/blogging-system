@@ -71,8 +71,7 @@ A modern full-stack blogging platform built with React, Node.js, Express, MySQL,
 4. **Access Application**
    - Frontend: http://localhost:3000
    - Backend API: http://localhost:5000
-   - Health Check: http://localhost:5000/api/health
-
+   
 ## 📁 Project Structure
 
 ```
@@ -296,11 +295,6 @@ npm run build
 # Serve the dist/ folder with a static file server
 ```
 
-## 📝 License
-
-This project is licensed under the MIT License.
-
----
 
 **Live Ports**: Backend (5000) | Frontend (3000)  
 **Database**: MySQL with Prisma ORM  
